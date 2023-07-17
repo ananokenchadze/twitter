@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "light";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Med";
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+:root {
+  --bold: "Bold";
+  --light: "light";
+  --med: "Med";
+}
+#myimg {
+  width: 50px;
+  height: 40px;
+}
+#bold {
+  font-family: var(--bold);
+  font-size: 42px;
+}
+#inputone {
+  border: 1px solid #00000033;
+}
+#btn {
+  background-color: #1da1f2;
+}
+.login {
+  font-family: var(--med);
+  max-height: 60px;
+}
+#forgot {
+  color: #1da1f2;
+  font-family: var(--light);
+}
